@@ -9,6 +9,10 @@ McCoy College of Business, 27. & 28. October 2023
 
 &copy; Dr. Yves J. Hilpisch | The Python Quants GmbH
 
+<br>
+<img src="https://certificate.tpq.io/ai_in_finance_viz.png" width=35%>
+<br>
+
 ## Slides & Agenda
 
 You find the slides at https://certificate.tpq.io/aifin.pdf.
@@ -44,6 +48,8 @@ Follow us on **Twitter** at https://twitter.com/dyjh.
 
 Subscribe to our **YouTube** channel at https://youtube.com/@dyjh.
 
+## Copyright
+
 The repository is authored and maintained by The Python Quants GmbH.
 
 &copy; Dr. Yves J. Hilpisch. MIT License.
@@ -55,9 +61,6 @@ You should be able to execute the Jupyter Notebooks with Google Colab at
 
 https://colab.research.google.com/github/yhilpisch/aifin.
 -->
-
-<img src="https://hilpisch.com/tpq_logo.png" width=35%><br><br>
-
 
 ## Get in Touch
 
