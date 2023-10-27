@@ -41,26 +41,32 @@ dependencies:
   - contourpy=1.1.1
   - cryptography=41.0.4
   - cycler=0.12.1
+  - dataclasses=0.8
   - debugpy=1.8.0
   - decorator=5.1.1
   - defusedxml=0.7.1
   - entrypoints=0.4
   - exceptiongroup=1.1.3
   - executing=1.2.0
+  - filelock=3.12.4
   - flatbuffers=23.3.3
   - fonttools=4.43.1
   - fqdn=1.5.1
   - freetype=2.12.1
   - frozenlist=1.4.0
+  - fsspec=2023.10.0
   - gast=0.4.0
   - gensim=4.3.2
   - giflib=5.2.1
+  - gmp=6.2.1
+  - gmpy2=2.1.2
   - google-auth=2.23.3
   - google-auth-oauthlib=0.4.6
   - google-pasta=0.2.0
   - grpcio=1.51.1
   - h5py=3.10.0
   - hdf5=1.14.2
+  - huggingface_hub=0.17.3
   - icu=72.1
   - idna=3.4
   - importlib-metadata=6.8.0
@@ -68,6 +74,7 @@ dependencies:
   - importlib_resources=6.1.0
   - ipykernel=6.25.2
   - ipython=8.16.1
+  - ipywidgets=8.1.1
   - isoduration=20.11.0
   - jedi=0.19.1
   - jinja2=3.1.2
@@ -86,6 +93,7 @@ dependencies:
   - jupyterlab=4.0.7
   - jupyterlab_pygments=0.2.2
   - jupyterlab_server=2.25.0
+  - jupyterlab_widgets=3.0.9
   - keras=2.11.0
   - keras-preprocessing=1.1.2
   - kiwisolver=1.4.5
@@ -120,6 +128,7 @@ dependencies:
   - libsqlite=3.43.2
   - libssh2=1.11.0
   - libtiff=4.6.0
+  - libuv=1.46.0
   - libwebp-base=1.3.2
   - libxcb=1.15
   - libxgboost=1.7.6
@@ -134,6 +143,9 @@ dependencies:
   - matplotlib-base=3.8.0
   - matplotlib-inline=0.1.6
   - mistune=3.0.1
+  - mpc=1.3.1
+  - mpfr=4.2.1
+  - mpmath=1.3.0
   - multidict=6.0.4
   - munkres=1.1.4
   - nbclient=0.8.0
@@ -141,12 +153,14 @@ dependencies:
   - nbformat=5.9.2
   - ncurses=6.4
   - nest-asyncio=1.5.8
+  - networkx=3.2
   - nltk=3.8.1
+  - nomkl=1.0
   - notebook-shim=0.2.3
   - numpy=1.26.0
   - oauthlib=3.2.2
   - openjpeg=2.5.0
-  - openssl=3.1.3
+  - openssl=3.1.4
   - opt_einsum=3.3.0
   - overrides=7.4.0
   - packaging=23.2
@@ -185,6 +199,7 @@ dependencies:
   - python-json-logger=2.0.7
   - python-tzdata=2023.3
   - python_abi=3.10
+  - pytorch=2.0.0
   - pytz=2023.3.post1
   - pyu2f=0.1.5
   - pyyaml=6.0.1
@@ -199,16 +214,19 @@ dependencies:
   - rfc3986-validator=0.1.1
   - rpds-py=0.10.6
   - rsa=4.9
+  - sacremoses=0.0.53
   - scikit-learn=1.3.1
   - scipy=1.11.3
   - send2trash=1.8.2
   - setuptools=68.2.2
   - six=1.16.0
+  - sleef=3.5.1
   - smart_open=6.4.0
   - snappy=1.1.10
   - sniffio=1.3.0
   - soupsieve=2.5
   - stack_data=0.6.2
+  - sympy=1.12
   - tensorboard=2.11.2
   - tensorboard-data-server=0.6.1
   - tensorboard-plugin-wit=1.8.1
@@ -220,10 +238,12 @@ dependencies:
   - threadpoolctl=3.2.0
   - tinycss2=1.2.1
   - tk=8.6.13
+  - tokenizers=0.14.1
   - tomli=2.0.1
   - tornado=6.3.3
   - tqdm=4.66.1
   - traitlets=5.11.2
+  - transformers=4.17.0
   - types-python-dateutil=2.8.19.14
   - typing-extensions=4.8.0
   - typing_extensions=4.8.0
@@ -238,6 +258,7 @@ dependencies:
   - websocket-client=1.6.4
   - werkzeug=3.0.0
   - wheel=0.41.2
+  - widgetsnbextension=4.0.9
   - wrapt=1.15.0
   - xgboost=1.7.6
   - xorg-libxau=1.0.11
@@ -251,5 +272,6 @@ dependencies:
   - zstd=1.5.5
   - pip:
       - openai==0.28.1
+      - pdfminer-six==20221105
       - wordcloud==1.9.2
 prefix: /Users/yves/Python/envs/aifin
